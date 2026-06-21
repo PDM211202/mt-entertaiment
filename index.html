@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MT Entertainment - Mobile App Development</title>
+
+<style>
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background:#050505;
+    color:white;
+}
+
+/* HEADER */
+header {
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    overflow:hidden;
+}
+
+header:before {
+    content:"";
+    position:absolute;
+    width:600px;
+    height:600px;
+    background:#dcae3d;
+    filter:blur(180px);
+    opacity:.2;
+    top:-200px;
+    right:-200px;
+}
+
+.container {
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.logo {
+    font-size:90px;
+    font-weight:900;
+    background:linear-gradient(
+        90deg,
+        #ddd,
+        #fff,
+        #eabf45
+    );
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.hero h1 {
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero span {
+    color:#e8b93f;
+}
+
+.hero p {
+    font-size:20px;
+    color:#bbb;
+    line-height:1.6;
+}
+
+.btn {
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    border-radius:30px;
+    background:#e8b93f;
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+/* PHONE MOCKUP */
+
+.phone {
+    width:300px;
+    height:600px;
+    border:8px solid #222;
+    border-radius:40px;
+    background:
+    linear-gradient(
+        145deg,
+        #222,
+        #050505
+    );
+    box-shadow:
+    0 0 50px #e8b93f;
+    padding:30px;
+}
+
+.phone h3 {
+    color:#e8b93f;
+}
+
+.screen {
+    margin-top:50px;
+    padding:20px;
+    background:#111;
+    border-radius:20px;
+}
+
+.card {
+    background:#191919;
+    padding:15px;
+    margin:15px 0;
+    border-radius:12px;
+}
+
+
+/* SECTION */
+
+section {
+    padding:80px 0;
+}
+
+.title {
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.title span {
+    color:#e8b93f;
+}
+
+
+.services {
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+
+.box {
+    background:#111;
+    padding:30px;
+    border-radius:20px;
+    border:1px solid #222;
+    transition:.3s;
+}
+
+.box:hover {
+    transform:translateY(-10px);
+    border-color:#e8b93f;
+}
+
+.box h3 {
+    color:#e8b93f;
+    margin-bottom:15px;
+}
+
+
+.tech {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.tech div {
+    padding:15px 25px;
+    background:#111;
+    border-radius:30px;
+    border:1px solid #333;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding:40px;
+    text-align:center;
+    background:#000;
+    color:#888;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="container">
+
+<div class="hero">
+
+
+<div>
+
+<div class="logo">
+MT
+</div>
+
+<h1>
+MT <span>Entertainment</span>
+</h1>
+
+
+<p>
+Chúng tôi phát triển các ứng dụng mobile hiện đại,
+mang đến trải nghiệm số mạnh mẽ, sáng tạo và hiệu quả
+cho doanh nghiệp và người dùng.
+</p>
+
+
+<a class="btn" href="#">
+Liên hệ ngay
+</a>
+
+</div>
+
+
+
+<div class="phone">
+
+<h3>
+MT APP
+</h3>
+
+<div class="screen">
+
+<div class="card">
+📱 Mobile Application
+</div>
+
+<div class="card">
+🎨 UI/UX Design
+</div>
+
+<div class="card">
+☁ Cloud Solutions
+</div>
+
+<div class="card">
+🚀 App Performance
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</header>
+
+
+
+
+<section>
+
+<div class="container">
+
+
+<h2 class="title">
+Dịch vụ <span>của chúng tôi</span>
+</h2>
+
+
+<div class="services">
+
+
+<div class="box">
+<h3>
+Mobile App Development
+</h3>
+<p>
+Phát triển ứng dụng Android, iOS với hiệu suất cao,
+giao diện hiện đại và khả năng mở rộng.
+</p>
+</div>
+
+
+
+<div class="box">
+<h3>
+UI/UX Design
+</h3>
+<p>
+Thiết kế trải nghiệm người dùng tối ưu,
+đẹp mắt và dễ sử dụng.
+</p>
+</div>
+
+
+
+<div class="box">
+<h3>
+Backend & Cloud
+</h3>
+<p>
+Xây dựng hệ thống API, database,
+cloud server ổn định.
+</p>
+</div>
+
+
+
+<div class="box">
+<h3>
+AI Integration
+</h3>
+<p>
+Ứng dụng trí tuệ nhân tạo để tạo ra
+những sản phẩm thông minh.
+</p>
+</div>
+
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<section>
+
+
+<div class="container">
+
+
+<h2 class="title">
+Công nghệ <span>sử dụng</span>
+</h2>
+
+
+<div class="tech">
+
+<div>Flutter</div>
+<div>React Native</div>
+<div>Kotlin</div>
+<div>Swift</div>
+<div>Firebase</div>
+<div>NodeJS</div>
+<div>AI</div>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section>
+
+
+<div class="container">
+
+<h2 class="title">
+Tại sao chọn <span>MT Entertainment?</span>
+</h2>
+
+
+<div class="services">
+
+
+<div class="box">
+<h3>
+Sáng tạo
+</h3>
+<p>
+Luôn tìm kiếm giải pháp mới cho sản phẩm số.
+</p>
+</div>
+
+
+<div class="box">
+<h3>
+Chất lượng
+</h3>
+<p>
+Tập trung vào hiệu suất, bảo mật và trải nghiệm.
+</p>
+</div>
+
+
+<div class="box">
+<h3>
+Đồng hành
+</h3>
+<p>
+Hỗ trợ sản phẩm trong suốt vòng đời phát triển.
+</p>
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<footer>
+
+© 2026 MT Entertainment  
+<br>
+Mobile App Development Studio
+
+</footer>
+
+
+</body>
+</html>
