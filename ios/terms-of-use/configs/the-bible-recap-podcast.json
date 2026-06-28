@@ -1,0 +1,13 @@
+{
+  "outputFile": "World-Soccer-Schedule-2026.html",
+  "pageTitle": "Recap Bible",
+  "appName": "Recap Bible",
+  "developerName": "Bible Recap Team",
+  "effectiveDate": "June 10, 2026",
+  "contactEmail": "hamanhdao001@gmail.com",
+  "thirdPartyServices": [
+    { "name": "AdMob", "url": "https://developers.google.com/admob/terms" },
+    { "name": "Google Analytics for Firebase", "url": "https://www.google.com/analytics/terms/" },
+    { "name": "Firebase Crashlytics", "url": "https://firebase.google.com/terms/crashlytics" }
+  ]
+}

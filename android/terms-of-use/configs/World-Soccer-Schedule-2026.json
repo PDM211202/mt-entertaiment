@@ -1,0 +1,13 @@
+{
+  "outputFile": "World-Soccer-Schedule-2026.html",
+  "pageTitle": "World Soccer Schedule 2026",
+  "appName": "World Soccer Schedule 2026",
+  "developerName": "Soccer Schedule Team",
+  "effectiveDate": "June 28, 2026",
+  "contactEmail": "hamanhdao001@gmail.com",
+  "thirdPartyServices": [
+    { "name": "AdMob", "url": "https://developers.google.com/admob/terms" },
+    { "name": "Google Analytics for Firebase", "url": "https://www.google.com/analytics/terms/" },
+    { "name": "Firebase Crashlytics", "url": "https://firebase.google.com/terms/crashlytics" }
+  ]
+}
