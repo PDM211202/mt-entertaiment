@@ -1,0 +1,13 @@
+{
+  "outputFile": "bible.html",
+  "pageTitle": "Bible",
+  "appName": "Bible",
+  "developerName": "Bible Team",
+  "effectiveDate": "Oct 19, 2026",
+  "contactEmail": "thao862000@gmail.com",
+  "thirdPartyServices": [
+    { "name": "AdMob", "url": "https://developers.google.com/admob/terms" },
+    { "name": "Google Analytics for Firebase", "url": "https://www.google.com/analytics/terms/" },
+    { "name": "Firebase Crashlytics", "url": "https://firebase.google.com/terms/crashlytics" }
+  ]
+}

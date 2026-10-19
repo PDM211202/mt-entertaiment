@@ -1,3 +1,4 @@
 # terms-of-use
 
-node generate.js configs/World-Soccer-Schedule-2026.json
+node generate.js configs/meow-vocab.json
+node generate.js configs/meow-vocab.json

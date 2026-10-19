@@ -1,0 +1,13 @@
+{
+  "outputFile": "meow-vocab.html",
+  "pageTitle": "Meow Vocab",
+  "appName": "Meow Vocab",
+  "developerName": "Meow Vocab Team",
+  "effectiveDate": "Sep 30, 2026",
+  "contactEmail": "thao862000@gmail.com",
+  "thirdPartyServices": [
+    { "name": "AdMob", "url": "https://developers.google.com/admob/terms" },
+    { "name": "Google Analytics for Firebase", "url": "https://www.google.com/analytics/terms/" },
+    { "name": "Firebase Crashlytics", "url": "https://firebase.google.com/terms/crashlytics" }
+  ]
+}
